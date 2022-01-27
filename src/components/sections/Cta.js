@@ -57,9 +57,9 @@ const Cta = ({
               </h3>
           </div>
           <div className="cta-action">
-            <Button tag="a" color="dark" wideMobile
+            <Button tag="a" color="secondary" wideMobile
               href="https://api.whatsapp.com/send?phone=5551992651301&text=Garage Sale: Oi">
-              Contato
+              Whatsapp
             </Button>
           </div>
         </div>

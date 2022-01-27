@@ -67,7 +67,6 @@ const FeaturesSplit = ({
       Altura: 77cm<br />
       Largura: 42cm dobrada e 85cm aberta<br />
       <br />
-      <b>2</b> unidades disponíveis<br />
       Referência: <a href="https://www.tokstok.com.br/flop-mesa-dobravel-160x80-branco-flip/p"
         target="_blank"
         rel="noopener noreferrer">
@@ -75,7 +74,6 @@ const FeaturesSplit = ({
       </p>
     ,
     images: [
-      require('./../../assets/images/items/mesa flip flop (1).jpg'),
       require('./../../assets/images/items/mesa flip flop (2).jpg'),
       require('./../../assets/images/items/mesa flip flop (3).jpg'),
       require('./../../assets/images/items/mesa flip flop (4).jpg')
@@ -110,6 +108,76 @@ const FeaturesSplit = ({
   }
   items.push(oculosVR);
 
+  const legoBorracha = {
+    price: 'R$ 40',
+    name: 'Brinquedo de montar de borracha',
+    description: <p>
+      Brinquedo de montar tipo Lego mas de borracha para não machucar.
+      Referência: <a href="https://www.rihappy.com.br/blocos-de-montar-fofo-blocos-25-pecas-elka/p"
+        target="_blank"
+        rel="noopener noreferrer">
+      Site da RiHappy</a>
+    </p>,
+    images: [
+      require('./../../assets/images/items/lego borracha.jpg')
+    ]
+  }
+  items.push(legoBorracha);
+
+  const radio = {
+    price: 'R$ 20',
+    name: 'Rádio Portátil',
+    description: 'Rádio portátil AM/FM com lanterna, entrada USB e Cartão SD.',
+    images: [
+      require('./../../assets/images/items/radio (1).jpg'),
+      require('./../../assets/images/items/radio (2).jpg'),
+      require('./../../assets/images/items/radio (3).jpg'),
+      require('./../../assets/images/items/radio (4).jpg')
+    ]
+  }
+  items.push(radio);
+
+  const soquete = {
+    price: 'R$ 5',
+    name: 'Soquete para lâmpada',
+    description: 'Soquete simples para lâmpada. 6 unidades disponíveis.',
+    images: [
+      require('./../../assets/images/items/soquete.jpg')
+    ]
+  }
+  items.push(soquete);
+
+  const suporteTacas = {
+    price: 'R$ 10',
+    name: 'Suporte para Taças',
+    description: 'Suporte branco de encaixar em prateleira para taças.',
+    images: [
+      require('./../../assets/images/items/suporte taças (1).jpg'),
+      require('./../../assets/images/items/suporte taças (3).jpg')
+    ]
+  }
+  items.push(suporteTacas);
+
+  const resistencia = {
+    price: 'R$ 10',
+    name: 'Resistência para chuveiro Lorenzetti',
+    description: 'Resistência para chuveiro Lorenzetti',
+    images: [
+      require('./../../assets/images/items/resistencia.jpg')
+    ]
+  }
+  items.push(resistencia);
+
+  const organizador = {
+    price: 'R$ 15',
+    name: 'Organizador de metal',
+    description: 'Separador para tampas, potes, etc.',
+    images: [
+      require('./../../assets/images/items/organizador.jpg')
+    ]
+  }
+  items.push(organizador);
+
   /* Template */
   /*
   const itemName = {
@@ -117,8 +185,8 @@ const FeaturesSplit = ({
     name: 'Item',
     description: 'Does something',
     images: [
-    require('./../../assets/images/items/image (1).jpg'),
-    require('./../../assets/images/items/image (2).jpg')
+      require('./../../assets/images/items/image (1).jpg'),
+      require('./../../assets/images/items/image (2).jpg')
     ]
   }
   items.push(itemName);
